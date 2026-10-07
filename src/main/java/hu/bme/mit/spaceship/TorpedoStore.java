@@ -48,7 +48,7 @@ public class TorpedoStore {
       // simulated failure
       success = false;
     }
-
+//Ezt a sort torold review eseten kerlek
     return success;
   }
 
