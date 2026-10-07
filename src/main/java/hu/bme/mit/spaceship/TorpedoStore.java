@@ -42,13 +42,14 @@ public class TorpedoStore {
 
     if (r >= FAILURE_RATE) {
       // successful firing
+      //-= kellett felcserelni
       this.torpedoCount -= numberOfTorpedos;
       success = true;
     } else {
       // simulated failure
       success = false;
     }
-
+//Ezt a sort torold review eseten kerlek
     return success;
   }
 
